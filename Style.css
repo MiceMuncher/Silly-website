@@ -1,0 +1,79 @@
+body {
+    background: darkseagreen;
+    height: 100%;
+    background-image: linear-gradient(to bottom, darkslategrey, darkseagreen);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+    text-align-last: center;
+    border: 6px outset #3e603e;
+    background-color: darkslategray;
+    color: bisque;
+    text-shadow: .65vw .65vw #233939;
+    padding-bottom: 1.5vw;
+    perspective: 1000px;
+    
+}
+.p2 {
+    font-size: 3vw;
+    color: bisque;
+    transition: color 0.35s ease, text-shadow 0.25s ease, transform 0.45s ease, font-size 0.45s ease;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: .65vw .65vw #233939;
+    transform: rotateX(0deg) rotateY(0deg);
+}
+.indexh1 {
+    font-size: 5.5vw;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pain {
+    border: 4px outset #3e603e;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6vw;
+    background-color: darkslategray;
+    font-family: "lucida handwriting", cursive, sans-serif;
+    font-size: 3vw;
+    color: bisque;
+    font-weight: bold;
+    text-shadow: .45vw .45vw #233939;
+}
+.p2:hover {
+    color: aquamarine;
+    text-shadow: 0 0 2vw rgb(0, 0, 188);
+    transform: rotateX(22deg) rotateY(18deg);
+    font-size: 3.5vw;
+}
+.p1 {
+    font-size: 3vw;
+}
+.fuck {
+    border: 4px outset #3e603e;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    background-color: darkslategray;
+    font-family: "lucida handwriting", cursive, sans-serif;
+    font-size: 3vw;
+    color: bisque;
+    font-weight: bold;
+    text-shadow: .45vw .45vw #233939;
+
+}
+.home {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
